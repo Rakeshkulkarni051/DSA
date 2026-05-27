@@ -13,7 +13,7 @@ public class profit {
             System.out.println("Profit Percentage: " + String.format("%.2f", profitPercentage) + "%");
         }
         else if(cp==sp){
-            System.out.println("Neither profit nor loss");
+            System.out.println("Neither profit nor any loss");
         }
         else{
             int loss = cp - sp;
