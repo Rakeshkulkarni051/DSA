@@ -11,7 +11,7 @@ public class max_array {
          for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
          }
-         int max=0;
+         int max=0; // or use max=Interger.MIN_VALUE
 
          for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
