@@ -13,7 +13,7 @@ public class secound_largest {
         }
 
         for(int i=0;i<arr.length;i++){
-            if(arr[i]>sec_max && arr[i]!=max){
+            if(arr[i]>sec_max && arr[i]!=max){ // or use arr<max
                 sec_max=arr[i];
             }
         }
