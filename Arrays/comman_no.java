@@ -9,13 +9,13 @@ public class comman_no {
 
         for(int i = 0; i < a.length; i++) {
 
-            boolean foundInB = false;
-            boolean foundInC = false;
+            boolean foundinB = false;
+            boolean foundinC = false;
 
             // Search in B
             for(int j = 0; j < b.length; j++) {
                 if(a[i] == b[j]) {
-                    foundInB = true;
+                    foundinB = true;
                     break;
                 }
             }
@@ -23,12 +23,12 @@ public class comman_no {
             // Search in C
             for(int k = 0; k < c.length; k++) {
                 if(a[i] == c[k]) {
-                    foundInC = true;
+                    foundinC = true;
                     break;
                 }
             }
 
-            if(foundInB && foundInC) {
+            if(foundinB && foundinC) {
                 System.out.println(a[i]);
             }
         }
