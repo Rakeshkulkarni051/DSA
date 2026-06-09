@@ -10,7 +10,7 @@ public class polindrome {
             ch[i]=ch[j];
             ch[j]=temp;
             i++;
-            j--;
+            
         }
         String rev=new String(ch);
         if(s.equals(rev)){
