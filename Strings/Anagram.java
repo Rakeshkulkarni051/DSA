@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class Anagram {
     public static void main(String[] args) {
-        // String s1="Silent";
-        // String s2="Listen";
+        String s1="Silent";
+        String s2="Listen";
 
         String s1 = "Dormitory";
         String s2 = "DirtyRoom";
