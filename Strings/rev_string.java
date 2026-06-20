@@ -1,7 +1,7 @@
 public class rev_string {
     public static void main(String[] args) {
         String s="vishal";
-
+        // String sm=new String();
         char arr[]=s.toCharArray();
         int i=0,j=arr.length-1;
         while(i<j){
