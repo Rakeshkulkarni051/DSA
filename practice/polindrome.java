@@ -23,7 +23,7 @@ class polindrome{
         }
         
    
-   
+        sc.close();
    
    
    
