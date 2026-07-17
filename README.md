@@ -2,7 +2,7 @@
 
 This repository contains my daily Data Structures and Algorithms (DSA) practice in Java. It serves as a record of my learning journey from fundamentals to problem-solving.
 
-## Topics Covered so far
+## Topics Covered so far:
 
 * Java Basics
 * Variables & Data Types
