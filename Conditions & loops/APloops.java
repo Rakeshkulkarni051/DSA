@@ -9,7 +9,7 @@ public class APloops {
         }
 
 
-        //AP OF 4,10,16,22,28..
+        //LOOP AP OF 4,10,16,22,28..
          for(int i=4;i<=28;i=i+6){
             System.out.println(" -- "+ i);
         }
