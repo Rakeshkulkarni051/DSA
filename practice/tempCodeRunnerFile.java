@@ -20,16 +20,13 @@ public class patterns {
         //     System.out.println();
     //}
       // Horizontal Flip
-    //  int n=5;
-    //  int m=1;
-    //     for(int i=1;i<=n;i++){
-    //         for(int j=1;j<=n-i+1;j++){
-    //             System.out.print(" "+m+" ");
-    //             m++;
-    //         }
-    //         System.out.println("");
-    //     }
-    
+     int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i+1;j++){
+                System.out.print(" "+j);
+            }
+            System.out.println("");
+        }
 
     }
 }
