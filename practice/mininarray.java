@@ -10,5 +10,14 @@ public class mininarray {
         System.out.println("min value in array is : "+min);
 
 
+        // Find max in array: 
+        int max=Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>max);
+            max=arr[i];
+        }
+        System.out.println("max value in array is : "+max);
+
+
     }
 }
