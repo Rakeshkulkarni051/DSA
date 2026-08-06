@@ -5,7 +5,7 @@ public class rotate_array {
     public static void main(String args[]){
 
     int ar[]={2,1,4,2,6,12,5,7,3};
-    // start n end positions 
+    // start n end positions to rotate
     int start=3,end=6;
 
     int i=start;
